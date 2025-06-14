@@ -1,4 +1,4 @@
-# LIVE LINK OF THE PROJECT - https://agentic-workflow-ia5o.onrender.com
+### LIVE LINK OF THE PROJECT - https://agentic-workflow-ia5o.onrender.com
 
 
 🤖 Agentic Workflow with LangGraph & Mistral
@@ -8,13 +8,14 @@ This project demonstrates a reliable agentic workflow built with LangGraph and p
 The project is organized into a few key files for simplicity and clarity:
 
 agentic-workflow/
-│
-├── tools.py # Tool functions (web_search, calculator)
-├── workflow.py # LangGraph workflow with planning and reflection
-├── app.py # Streamlit UI for testing the agentic workflow
-├── requirements.txt # Python package dependencies
-├── .env # API keys (not committed to GitHub)
-└── README.md # You're here!         
+
+
+├── tools.py
+├── workflow.py 
+├── app.py 
+├── requirements.txt 
+├── .env 
+└── README.md       
 
 
 
