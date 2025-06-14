@@ -1,0 +1,20 @@
+tavily-python>=0.3.0
+
+# Core agentic workflow dependencies
+langgraph
+langchain
+langchain-core
+langchain-community
+langchain-mistralai
+
+# Streamlit frontend
+streamlit
+
+# For using APIs and HTTP requests
+requests
+httpx
+
+# For managing environment variables
+python-dotenv
+
+
