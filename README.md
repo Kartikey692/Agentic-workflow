@@ -1,48 +1,28 @@
 ### LIVE LINK OF THE PROJECT - https://agentic-workflow-ia5o.onrender.com
 
+
 🤖 Agentic Workflow with LangGraph & Mistral
-This project demonstrates a reliable agentic workflow built with LangGraph and powered by Mistral AI.
-The system uses a planner-reflector-executor model to handle complex user queries. It can:
+This project demonstrates a reliable agentic workflow built with LangGraph and powered by Mistral AI. The system uses a planner-reflector model to handle complex user queries. It can break down requests into steps, execute tasks using tools, reflect on the results to handle errors, and provide a final answer through a clean Streamlit web interface.
 
-Break down requests into sub-tasks
-Execute those tasks using tools (like search & calculator)
-Reflect on results to handle errors or refine queries
-Provide a final answer through a Streamlit web interface
-
-📂 Project Structure
-The project is organized into a few key files for simplicity and clarity:
-
-agentic-workflow/
-├── venv/                # Optional: your Python virtual environment
-├── .env                 # Stores API keys and environment variables
-├── app.py               # The Streamlit web interface for user interaction
-├── requirements.txt     # Lists all necessary Python packages
-├── tools.py             # Defines tools the agent can use (e.g., search, calculator)
-└── workflow.py          # Contains the core LangGraph agentic workflow logic
 
 🛠️ Agent Tools
-The agent uses the following tools to accomplish tasks:
+The agent is equipped with the following tools to interact with its environment:
 
-🔍 Web Search Tool
+1. Web Search
 Tool Name: web_search
 
-Description: Searches the internet for information — ideal for real-time data or general knowledge.
+Description: A tool for searching the internet for information. It is best used for up-to-date information or general knowledge questions.
 
-How it Works: Sends a query to the Tavily Web Search API, then extracts and summarizes relevant results.
+How it Works: This tool sends a query to the DuckDuckGo Instant Answer API using the requests library. It parses the JSON response to extract the most relevant abstract text or related topics, returning a concise summary to the agent.
 
-➗ Calculator Tool
+2. Calculator
 Tool Name: calculator
 
-Description: Evaluates mathematical expressions and performs calculations.
+Description: A tool designed to evaluate mathematical expressions and perform calculations.
 
-How it Works: Uses Python's built-in eval() inside a secure environment to calculate expressions like "8% of 1000" or "1000 * 0.08".      
-
+How it Works: It safely evaluates a string containing a mathematical expression using Python's eval() function. The execution is sandboxed to only allow access to standard math functions for security.
 
 🚀 How to Run
-1.Clone the repository
-2.Create and activate a virtual environment
-3.Install required dependencies
-4.Create a .env file and add your API key
-5.Launch the Streamlit app
+To run this project, first clone the repository, then create and activate a Python virtual environment. Install all required packages by running pip install -r requirements.txt. Next, create a .env file in the project's root directory and add your MISTRAL_API_KEY="your_key_here". Finally, launch the interactive web application with the command streamlit run app.py, and it will open in your browser.
 
 
