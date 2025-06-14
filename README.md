@@ -1,17 +1,20 @@
+# LIVE LINK OF THE PROJECT - https://agentic-workflow-ia5o.onrender.com
+
+
 🤖 Agentic Workflow with LangGraph & Mistral
 This project demonstrates a reliable agentic workflow built with LangGraph and powered by Mistral AI. The system uses a planner-reflector model to handle complex user queries. It can break down requests into steps, execute tasks using tools, reflect on the results to handle errors, and provide a final answer through a clean Streamlit web interface.
 
 📂 Project Structure
 The project is organized into a few key files for simplicity and clarity:
 
-text
 agentic-workflow/
-├── venv/
-├── .env                  
-├── app.py                
-├── requirements.txt      
-├── tools.py              
-└── workflow.py          
+│
+├── tools.py # Tool functions (web_search, calculator)
+├── workflow.py # LangGraph workflow with planning and reflection
+├── app.py # Streamlit UI for testing the agentic workflow
+├── requirements.txt # Python package dependencies
+├── .env # API keys (not committed to GitHub)
+└── README.md # You're here!         
 
 
 
