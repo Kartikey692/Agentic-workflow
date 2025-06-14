@@ -8,14 +8,13 @@ This project demonstrates a reliable agentic workflow built with LangGraph and p
 The project is organized into a few key files for simplicity and clarity:
 
 agentic-workflow/
-
-
-├── tools.py
-├── workflow.py 
-├── app.py 
-├── requirements.txt 
-├── .env 
-└── README.md       
+├── venv/
+├── .env                  # Stores API keys and environment variables
+├── app.py                # The Streamlit web interface for user interaction
+├── requirements.txt      # Lists all necessary Python packages
+├── tools.py              # Defines the tools the agent can use (e.g., search, calculator)
+└── workflow.py           # Contains the core LangGraph agentic workflow logic
+      
 
 
 
