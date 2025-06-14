@@ -1,4 +1,3 @@
-# tools.py
 import requests
 import math
 from langchain_core.tools import BaseTool
@@ -54,3 +53,5 @@ class CalculatorTool(BaseTool):
 def get_tools():
     """Returns a list of all available tool instances."""
     return [WebSearchTool(), CalculatorTool()]
+
+
