@@ -29,3 +29,27 @@ agentic-workflow/
 
 └── venv/ 
 
+
+---
+
+## 🛠️ Tools Used
+
+### 1. Web Search Tool (`web_search`)
+- **Purpose**: Fetches real-time data from the web.
+- **How it works**: Uses the DuckDuckGo Instant Answer API with `requests` to return quick facts or summaries.
+
+### 2. Calculator Tool (`calculator`)
+- **Purpose**: Evaluates mathematical expressions.
+- **How it works**: Safely computes expressions using Python’s `eval()` in a sandboxed environment. Supports common math functions.
+
+---
+
+## 🚀 Quick Start
+
+### 1. Clone the Repository
+
+```bash
+git clone <your-repository-url>
+cd agentic-workflow
+
+
