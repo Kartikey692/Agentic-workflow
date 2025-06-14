@@ -1,4 +1,4 @@
-### LIVE LINK OF THE PROJECT - https://agentic-workflow-ia5o.onrender.com
+## LIVE LINK OF THE PROJECT - https://agentic-workflow-ia5o.onrender.com
 
 
 ##🤖 Agentic Workflow with LangGraph & Mistral
@@ -25,7 +25,7 @@ How it Works: It safely evaluates a string containing a mathematical expression 
 
 
 
-##🚀 How to Run
+##🚀## How to Run
 To run this project, first clone the repository, then create and activate a Python virtual environment. Install all required packages by running pip install -r requirements.txt. Next, create a .env file in the project's root directory and add your MISTRAL_API_KEY="your_key_here". Finally, launch the interactive web application with the command streamlit run app.py, and it will open in your browser.
 
 
