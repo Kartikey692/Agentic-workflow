@@ -17,10 +17,15 @@ All of this is exposed through a user-friendly **Streamlit web interface**.
 
 agentic-workflow/
 
-├── app.py 
-├── tools.py 
-├── workflow.py 
+├── app.py
+
+├── tools.py
+
+├── workflow.py
+
 ├── requirements.txt 
+
 ├── .env 
+
 └── venv/ 
 
