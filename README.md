@@ -44,48 +44,56 @@ agentic-workflow/
 
 ---
 
-## 🚀 How To Run 
+
+## 📌 How to Run
+
+###  1. Clone the Repository
+
+```bash
+git clone <your-repository-url>
+cd agentic-workflow
+```
+
+###  2. Create Virtual Environment
+
+#### On macOS/Linux:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+#### On Windows:
+
+```bash
+python -m venv venv
+.env\Scriptsa\ctivate
+```
+
+###  3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Set Environment Variables (Optional)
+
+```bash
+# Create a .env file in the project root and add:
+MISTRAL_API_KEY="your_mistral_api_key_here"
+```
+
+### 5. Run the App
+
+```bash
+streamlit run app.py
+```
+
+> The app will open in your browser at `http://localhost:8501`.
+
+---
 
 
-1. Clone the Repository :
-
-       git clone  <your-repository-url>
-
-       cd agentic-workflow
-
-
-2. Create Virtual Environment:
-
-    On macOS/Linux:
-
-       python3 -m venv venv
-
-       source venv/bin/activate
-
-    On Windows:
-
-       python -m venv venv
-
-       .\venv\Scripts\activate
-
-
-3. Install Dependencies:
-   
-       pip install -r requirements.txt
-
-
-4. Set Environment Variables 
-
-       Create a .env file in the project root and add:
-
-       MISTRAL_API_KEY="your_mistral_api_key_here"
-
-
-5. Run the App
-   
-       streamlit run app.py
-
-The app will open in your browser at http://localhost:8501.
 
 
 
